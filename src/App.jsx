@@ -3,7 +3,7 @@ import MovieList from './components/MovieList'
 import './App.css'
 
 function App() {
-  const [currentCollection, setCurrentCollection] = useState(10); // Default: Star Wars Collection
+  const [currentCollection, setCurrentCollection] = useState(10); 
 
   const collections = [
     { id: 10, name: 'Star Wars Collection' },
