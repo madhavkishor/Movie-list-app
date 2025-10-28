@@ -160,7 +160,6 @@
   font-size: 1.1rem;
 }
 
-/* Custom Scrollbar */
 .movie-list-scroll-container::-webkit-scrollbar {
   width: 8px;
 }
