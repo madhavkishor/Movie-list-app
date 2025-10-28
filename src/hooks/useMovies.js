@@ -7,7 +7,6 @@ const useMovies = (collectionId) => {
   const [error, setError] = useState(null);
   const [collectionInfo, setCollectionInfo] = useState(null);
 
-  // TMDB API configuration
   const API_KEY = '11661a99f54cf368025014cbe5917c39';
   const BASE_URL = 'https://api.themoviedb.org/3';
 
